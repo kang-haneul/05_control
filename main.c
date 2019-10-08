@@ -5,18 +5,14 @@
 
 int main(int argc, char *argv[]) {
 	
-	int input;
+	int i=0, meter;
 	
-	printf("input a number : ");
-	scanf("%d",&input);
-	
-	if(input>0)
-		printf("positive\n");
-	else if(input<0)
-		printf("negative\n");
-	else
-		printf("0\n");
-		
+	while(i<3)
+	{
+		meter=i*1609;
+		printf("%dmile is %d meter\n",i,meter);
+		i++;
+	}
 		
 	
 	
