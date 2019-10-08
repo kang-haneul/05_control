@@ -11,10 +11,13 @@ int main(int argc, char *argv[]) {
 	scanf("%d",&input);
 	
 	if(input>0)
-		printf("|x|=%d\n",input);
+		printf("positive\n");
+	else if(input<0)
+		printf("negative\n");
 	else
-		printf("|x|=%d\n",-input);
-	
+		printf("0\n");
+		
+		
 	
 	
 	return 0;
